@@ -20,7 +20,7 @@ const Content = () => {
         end: '110% 80%',
         scrub: 1,
         // pin: true,
-        markers: true,
+        // markers: true,
       },
     });
   }, []);
