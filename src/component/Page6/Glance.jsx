@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Glance = ({src, src1 , className, animation }) => {
+const Glance = ({src, src1 , className, animation , style}) => {
   return (
     <div className={className} >
-      <img src={src} alt="" className=' absolute z-2 -top-10'/>
+      <img src={src} alt="" className='h-full absolute z-2 bottom-0 ' style={style}/>
       <video src={src1} className=' object-cover h-full w-full' autoPlay loop ></video>
       <div className='absolute top-0 w-full h-[50%] z-1 '>
         {animation}

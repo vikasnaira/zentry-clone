@@ -3,7 +3,6 @@ import { useEffect, useRef, useState } from 'react';
 const TextPressure = ({
   text = 'Compressa',
   fontFamily = 'Compressa VF',
-  // This font is just an example, you should not use it in commercial projects.
   fontUrl = 'https://res.cloudinary.com/dr6lvwubh/raw/upload/v1529908256/CompressaPRO-GX.woff2',
 
   width = true,
@@ -196,7 +195,7 @@ const TextPressure = ({
             {char}
           </span>
         ))}
-      </h1>
+      </h1> 
     </div>
   );
 };

@@ -6,13 +6,13 @@ import { FaLocationArrow } from "react-icons/fa"
 
 const Story = () => {
   return (
-    <div className='relative w-full my-20 flex flex-col justify-center items-center'>
+    <div className='relative w-full bg-black my-20 flex flex-col items-center'>
         <TiltedCard
               imageSrc="/img/entrance.webp"
               containerHeight="90vh"
               containerWidth="100%"
               imageHeight="100vh"
-              imageWidth="100vh"
+              imageWidth="60%"
               rotateAmplitude={20}
               scaleOnHover={1}
               showMobileWarning={true}
@@ -20,8 +20,8 @@ const Story = () => {
               clipPath={" polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%)"}
               />
       <h1 className='md:text-8xl text-5xl  font-extrabold text-center absolute  -top-18  mix-blend-difference z-10' style={{ fontFamily:'"Bebas Neue", sans-serif'}}>THE STORY OF <br /> A HIDDEN REALM</h1>
-        <div className='absolute text-xs left-5 md:right-30 -bottom-20 md:w-1/5 text-left flex flex-col gap-5 items-start'>
-        <h6 className='w-1/2 '>
+        <div className='absolute  text-xs w-1/3 md:-right-5 items-center right-10 -bottom-[25%]   text-left flex flex-col gap-5 '>
+        <h6 className='md:w-1/2 text-xs lg:text-sm text-center w-full'>
             Where realms converge, lies Zentry and the boundless pillar. Discover its secrets and shape your fate amidst infinite opportunities.
         </h6>
           <Button
