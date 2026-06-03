@@ -8,7 +8,7 @@ import Page6 from './Page6/Page6'
 import Footer from './Footer/Footer'
 const Home = () => {
   return (
-    <div className='bg-zinc-300 w-full overflow-hidden'>
+    <div className='bg-zinc-300 w-full hidden md:block overflow-hidden'>
       <Page1/>
       <Page2/>
       <Page3/>
@@ -16,7 +16,6 @@ const Home = () => {
       <Page5/>
       <Page6/>
       <Footer/>
-
     </div>
   )
 }

@@ -26,6 +26,9 @@ const App = () => {
   return (
     <main className=' mix-blend-difference overflow-hidden max-w-[100vw]'>
       <Home/>
+      <div className='bg-black md:hidden h-screen px-6 w-full text-red-500  flex justify-center  items-center'>
+       <h1 className='text-center text-xl font-bold' style={{ fontFamily:'"Bebas Neue", sans-serif'}}>SORRY YOUR DISPLAY NOT SUPPORT OUR WEBSITE !</h1>
+      </div>
     </main>
   )
 }
